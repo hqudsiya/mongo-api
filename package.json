@@ -3,14 +3,25 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^5.1.0",
-    "mongodb": "^6.17.0"
-  }
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hqudsiya/mongo-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hqudsiya/mongo-api/issues"
+  },
+  "homepage": "https://github.com/hqudsiya/mongo-api#readme",
+  "devDependencies": {},
+  "description": ""
 }
