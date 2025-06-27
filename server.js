@@ -11,8 +11,8 @@ app.post('/insert', async (req, res) => {
   const client = new MongoClient(uri);
   try {
     await client.connect();
-    const db = client.db("AzureDatabase");
-    const collection = db.collection("store");
+    const db = client.db("store");
+    const collection = db.collection("product_type");
     const result = await collection.insertOne(req.body);
     res.status(200).send(result);
   } catch (err) {
